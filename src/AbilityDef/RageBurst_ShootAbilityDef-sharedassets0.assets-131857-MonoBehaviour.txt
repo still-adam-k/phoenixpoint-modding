@@ -1,0 +1,107 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 3047
+ 1 string m_Name = "RageBurst_ShootAbilityDef"
+ 1 string Guid = "8ec34bc2-1a7d-2e24-ebf5-d065455d1688"
+ 1 string ResourcePath = "Defs/Tactical/Actors/_Common/Abilities/Shoot/RageBurst_ShootAbilityDef"
+ 0 PPtr<$AbilityCharacterProgressionDef> CharacterProgressionData
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 139803
+ 0 PPtr<$TacticalTargetingDataDef> TargetingDataDef
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 131872
+ 0 PPtr<$TacticalAbilityViewElementDef> ViewElementDef
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 138445
+ 0 PPtr<$SceneViewElementDef> SceneViewElementDef
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 136979
+ 0 vector SkillTags
+  0 Array Array (2 items)
+   0 int size = 2
+   [0]
+    0 PPtr<$SkillTagDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 129624
+   [1]
+    0 PPtr<$SkillTagDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 129634
+ 1 UInt8 Active = 1
+ 1 UInt8 AvailableToAI = 1
+ 1 UInt8 AvailableToHumanPlayer = 1
+ 1 UInt8 TrackWithCamera = 0
+ 0 int ShownModeToTrack = 256
+ 1 UInt8 SnapToFloorHeight = 1
+ 1 UInt8 IgnoreForEndOfCharTurn = 0
+ 1 UInt8 UsableOnNonSelectedEquipment = 0
+ 1 UInt8 UsableOnNonProficientEquipment = 0
+ 1 UInt8 UsableOnEquipmentWithInsufficientCharges = 0
+ 1 UInt8 UsableOnDisabledActor = 0
+ 0 int UsesPerTurn = 1
+ 1 UInt8 EndsTurn = 0
+ 0 float ActionPointCost = -1
+ 0 float WillPointCost = 5
+ 0 vector AbilitiesRequired
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 vector ActorTags
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 PPtr<$GameTagDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 129677
+ 0 vector EquipmentTags
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 PPtr<$GameTagDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 129693
+ 0 vector TraitsRequired
+  0 Array Array (2 items)
+   0 int size = 2
+   [0]
+    1 string data = "start"
+   [1]
+    1 string data = "ability"
+ 0 vector TraitsToApply
+  0 Array Array (3 items)
+   0 int size = 3
+   [0]
+    1 string data = "attack"
+   [1]
+    1 string data = "shoot"
+   [2]
+    1 string data = "ability"
+ 1 UInt8 ApplyTraitsOnActivate = 1
+ 0 int AnimType = 1
+ 0 int RequiredCharges = 1
+ 1 string OverrideEquipmentTrait = ""
+ 0 PPtr<$TacticalEventDef> EventOnActivate
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 129345
+ 0 int ContributionPointsOnUse = 0
+ 0 vector DisablingStatuses
+  0 Array Array (0 items)
+   0 int size = 0
+ 1 UInt8 IsDefault = 0
+ 0 int AttackType = 3
+ 0 int TargetsCount = 2
+ 0 int ExecutionsCount = 1
+ 1 UInt8 UpdatePrediction = 0
+ 1 UInt8 CanShootOnEnemyBodyParts = 0
+ 1 UInt8 CanUseFirstPersonCam = 1
+ 1 UInt8 ForceFirstPersonCam = 1
+ 0 float ProjectileSpreadMultiplier = 1.5
+ 0 float ProjectileRangeMultiplier = 1
+ 1 UInt8 RemoveCameraDirectorHintOnReturnFire = 0
+ 0 PPtr<$AddAbilityStatusDef> AddFollowupAbilityStatusDef
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0

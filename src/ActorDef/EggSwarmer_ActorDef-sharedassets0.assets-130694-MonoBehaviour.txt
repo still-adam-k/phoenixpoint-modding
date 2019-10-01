@@ -1,0 +1,85 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 2270
+ 1 string m_Name = "EggSwarmer_ActorDef"
+ 1 string Guid = "a34453c8-7938-5de4-c89f-01996e3deb7f"
+ 1 string ResourcePath = "Defs/Tactical/Actors/Aliens/ALN_Egg_Swarmer/BasicDefs/EggSwarmer_ActorDef"
+ 0 PPtr<$Object> Prefab
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 0 vector Abilities
+  0 Array Array (6 items)
+   0 int size = 6
+   [0]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 130717
+   [1]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131760
+   [2]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 130716
+   [3]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 130658
+   [4]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131743
+   [5]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 130659
+ 0 PPtr<$PPFactionDef> FactionDef
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 129537
+ 0 PPtr<$SubstanceTypeTagDef> SubstanceTypeTag
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 129640
+ 0 GameTagsList GameTags
+  0 vector _tags
+   0 Array Array (3 items)
+    0 int size = 3
+    [0]
+     0 PPtr<$GameTagDef> data
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 129656
+    [1]
+     0 PPtr<$GameTagDef> data
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 129620
+    [2]
+     0 PPtr<$GameTagDef> data
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 129675
+ 0 int Toughness = 0
+ 0 float EnduranceToHealthMultiplier = 10
+ 0 int WillPointWorth = 0
+ 0 vector StatusEffects
+  0 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 PPtr<$StatusDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 132024
+ 0 float WillPointsOverchargeCapacityMultiplier = 0
+ 0 float EnduranceToThrowMultiplier = 1
+ 0 float EnduranceToCarryWeightMultiplier = 1
+ 0 PPtr<$TacStatusDef> BelowZeroWillPointsStatus
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 0 PPtr<$TacStatusDef> ZeroBodyPartHealthStatus
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 UseFirstPersonShootingLayout = 0
+ 1 UInt8 ShouldStopMovingOnActorSpotted = 1
+ 1 UInt8 ConsiderForGameEnd = 1

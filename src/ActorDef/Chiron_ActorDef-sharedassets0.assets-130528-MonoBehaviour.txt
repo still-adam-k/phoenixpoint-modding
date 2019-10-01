@@ -1,0 +1,93 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 2270
+ 1 string m_Name = "Chiron_ActorDef"
+ 1 string Guid = "7cb30f6a-0c43-0944-d9f9-48689552354b"
+ 1 string ResourcePath = "Defs/Tactical/Actors/Aliens/ALN_Chiron/BasicDefs/Chiron_ActorDef"
+ 0 PPtr<$Object> Prefab
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 0 vector Abilities
+  0 Array Array (8 items)
+   0 int size = 8
+   [0]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131773
+   [1]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131772
+   [2]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 130533
+   [3]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131743
+   [4]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131760
+   [5]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131749
+   [6]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 130519
+   [7]
+    0 PPtr<$AbilityDef> data
+     0 int m_FileID = 0
+     0 SInt64 m_PathID = 131821
+ 0 PPtr<$PPFactionDef> FactionDef
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 129537
+ 0 PPtr<$SubstanceTypeTagDef> SubstanceTypeTag
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 129640
+ 0 GameTagsList GameTags
+  0 vector _tags
+   0 Array Array (4 items)
+    0 int size = 4
+    [0]
+     0 PPtr<$GameTagDef> data
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 129652
+    [1]
+     0 PPtr<$GameTagDef> data
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 129620
+    [2]
+     0 PPtr<$GameTagDef> data
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 129675
+    [3]
+     0 PPtr<$GameTagDef> data
+      0 int m_FileID = 0
+      0 SInt64 m_PathID = 129629
+ 0 int Toughness = 0
+ 0 float EnduranceToHealthMultiplier = 10
+ 0 int WillPointWorth = 5
+ 0 vector StatusEffects
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 float WillPointsOverchargeCapacityMultiplier = 2
+ 0 float EnduranceToThrowMultiplier = 1
+ 0 float EnduranceToCarryWeightMultiplier = 1
+ 0 PPtr<$TacStatusDef> BelowZeroWillPointsStatus
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 132005
+ 0 PPtr<$TacStatusDef> ZeroBodyPartHealthStatus
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 131979
+ 1 UInt8 UseFirstPersonShootingLayout = 0
+ 1 UInt8 ShouldStopMovingOnActorSpotted = 1
+ 1 UInt8 ConsiderForGameEnd = 1
