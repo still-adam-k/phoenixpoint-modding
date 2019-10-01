@@ -30,18 +30,17 @@ Tweak weapons values damage/burst values?
 
 Balance the abilities around status - Limit AP gain from Rapid Clearance. Look at other abilities
 
-Add smoke/flashbangs granades
-* reuse the mist mechanic?
-* find a status to limit AP and apply on granade?
-* find a status to lower acc and apply on granade?
+Overwatch accurace based on overwatch cone width?
+
+Add smoke/flashbangs granades?
+
+Suppression?
 
 Prevent damage overflow from one part?
 
 Bullets natively passthrough if damage exceed object HP?
 
 Change wounds so headshots more leathal? Add native armour to head part/tweak HP?
-
-Suppression?
 
 Speed up mutations?
 
