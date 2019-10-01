@@ -28,9 +28,7 @@ Specialize soldier gear - limit to only one main weapon
 
 Tweak weapons values damage/burst values? 
 
-Balance the abilities:
-* Abilities that can be used often should not be overpowerd, and should not be used for free (either: end turn, use once per turn or have AP cost)
-* Remove ot try to nerf effect of abilities that are broken (eg. Rapid Clearance)
+Balance the abilities around status - Limit AP gain from Rapid Clearance. Look at other abilities
 
 Add smoke/flashbangs granades
 * reuse the mist mechanic?
